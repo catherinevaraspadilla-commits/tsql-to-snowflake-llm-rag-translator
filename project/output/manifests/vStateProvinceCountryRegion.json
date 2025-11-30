@@ -1,0 +1,19 @@
+{
+  "input": "C:/Users/CatherineVaras/Downloads/snowflake/scripts_input/vStateProvinceCountryRegion.sql",
+  "output": "C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion_snowflake.sql",
+  "not_translated": "C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/not_translated.sql",
+  "parts_total": 3,
+  "translate_parts": 1,
+  "dont_translate_parts": 2,
+  "ok_parts": 1,
+  "fallback_parts": 0,
+  "stage_paths": {
+    "splitter": "C:/Users/CatherineVaras/Downloads/snowflake/output/splitter/vStateProvinceCountryRegion",
+    "detector": "C:/Users/CatherineVaras/Downloads/snowflake/output/detector/vStateProvinceCountryRegion",
+    "retrieve": "C:/Users/CatherineVaras/Downloads/snowflake/output/retrieve/vStateProvinceCountryRegion",
+    "translator_pass1": "C:/Users/CatherineVaras/Downloads/snowflake/output/translator_pass1/vStateProvinceCountryRegion",
+    "validator": "C:/Users/CatherineVaras/Downloads/snowflake/output/validator/vStateProvinceCountryRegion",
+    "translator_pass2": "C:/Users/CatherineVaras/Downloads/snowflake/output/translator_pass2/vStateProvinceCountryRegion"
+  },
+  "splitter_path": "C:/Users/CatherineVaras/Downloads/snowflake/output/splitter/vStateProvinceCountryRegion"
+}

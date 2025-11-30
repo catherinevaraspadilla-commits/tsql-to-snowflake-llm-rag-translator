@@ -1,0 +1,19 @@
+{
+  "input": "C:/Users/CatherineVaras/Downloads/snowflake/scripts_input/uspUpdateEmployeeHireInfo.sql",
+  "output": "C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeeHireInfo_snowflake.sql",
+  "not_translated": "C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeeHireInfo/not_translated.sql",
+  "parts_total": 10,
+  "translate_parts": 1,
+  "dont_translate_parts": 9,
+  "ok_parts": 1,
+  "fallback_parts": 0,
+  "stage_paths": {
+    "splitter": "C:/Users/CatherineVaras/Downloads/snowflake/output/splitter/uspUpdateEmployeeHireInfo",
+    "detector": "C:/Users/CatherineVaras/Downloads/snowflake/output/detector/uspUpdateEmployeeHireInfo",
+    "retrieve": "C:/Users/CatherineVaras/Downloads/snowflake/output/retrieve/uspUpdateEmployeeHireInfo",
+    "translator_pass1": "C:/Users/CatherineVaras/Downloads/snowflake/output/translator_pass1/uspUpdateEmployeeHireInfo",
+    "validator": "C:/Users/CatherineVaras/Downloads/snowflake/output/validator/uspUpdateEmployeeHireInfo",
+    "translator_pass2": "C:/Users/CatherineVaras/Downloads/snowflake/output/translator_pass2/uspUpdateEmployeeHireInfo"
+  },
+  "splitter_path": "C:/Users/CatherineVaras/Downloads/snowflake/output/splitter/uspUpdateEmployeeHireInfo"
+}

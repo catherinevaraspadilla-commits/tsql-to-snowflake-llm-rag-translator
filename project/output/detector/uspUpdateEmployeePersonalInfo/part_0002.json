@@ -1,0 +1,13 @@
+{
+  "object_type": "procedure",
+  "name": "HumanResources.uspUpdateEmployeePersonalInfo",
+  "hints": {
+    "has_top": false,
+    "has_begin": true,
+    "has_dollar_quotes": false,
+    "has_proc_tokens_in_view": false,
+    "has_getdate": false,
+    "has_over_clause": false,
+    "has_qualify": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "object_type": "procedure",
+  "errors": [
+    {
+      "code": "MISSING_RETURNS",
+      "msg": "Snowflake PROCEDURE must declare RETURNS <type> (e.g., RETURNS STRING)."
+    }
+  ],
+  "warnings": [
+    {
+      "code": "MISSING_DOLLARS",
+      "msg": "Procedure body not found between AS $$ $$; ensure correct body delimiter for LANGUAGE SQL/JAVASCRIPT."
+    }
+  ],
+  "suggestions": []
+}

@@ -1,0 +1,13 @@
+{
+  "target_tokens": 600,
+  "overlap_tokens": 80,
+  "max_returned_chunks": 8,
+  "weak_similarity_threshold": 0.25,
+  "split_strategy_order": ["##", "###", "paragraph"],
+  "respect_code_blocks": true,
+  "respect_tables": true,
+  "attach_title_to_first_chunk_only": true,
+  "dedupe_key": "page_title:first_heading",
+  "rerank_weights": { "cosine": 0.7, "keyword_overlap": 0.3 },
+  "chunk_id_hash": "sha1(doc_id || '::' || heading_path || '::' || chunk_index)"
+}

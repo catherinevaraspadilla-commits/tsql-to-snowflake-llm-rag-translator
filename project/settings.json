@@ -1,0 +1,7 @@
+{
+  "root_folder_path": "C:/Users/CatherineVaras/Downloads/snowflake/scripts",
+  "api_key": "YOUR_AZURE_OPENAI_API_KEY_HERE",
+  "azure_endpoint": "https://....",
+  "embedding_deployment" : "text-embedding-3-small",
+  "chat_deployment": "gpt-4o" 
+}

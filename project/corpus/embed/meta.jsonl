@@ -1,0 +1,90 @@
+{"chunk_id": "7c6905cc602efe4323074f8ba0aaa4d9dd65ec9b", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "", "approx_tokens": 91}
+{"chunk_id": "84f52895e4d9589cdbec0977947b7f9c6e183bfe", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Usage", "approx_tokens": 79}
+{"chunk_id": "58a2ea8d0d5068cbe3a9f54622d35c5a42ee29c4", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "General Aggregation", "approx_tokens": 118}
+{"chunk_id": "06a801e04a692fac8ee7a5b7d3a7678dc6cbf306", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Bitwise Aggregation", "approx_tokens": 16}
+{"chunk_id": "574fa22430cf02ae6b4f95ab4cc30542d6a42947", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Boolean Aggregation", "approx_tokens": 17}
+{"chunk_id": "3d0a6b9bce7b26e06be9431a4b301c948a28412d", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Hash", "approx_tokens": 5}
+{"chunk_id": "117a5bdc9a27656e2d8ceddb3af3875bac9ddd0e", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Semi-structured Data Aggregation", "approx_tokens": 16}
+{"chunk_id": "dc5007eebf17a08f12844746def384624acbc2e3", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Linear Regression (regr_*)", "approx_tokens": 37}
+{"chunk_id": "b1842667554006383724624c2c4b10c037a5fb6e", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Statistics and Probability", "approx_tokens": 12}
+{"chunk_id": "0561eafeb89f2d0c98e5c93fdff5feb2d705ba70", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Counting Distinct Values", "approx_tokens": 43}
+{"chunk_id": "2bc6056d5078722ced72932e88a4aff73c1c544c", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Cardinality Estimation (HyperLogLog family)", "approx_tokens": 107}
+{"chunk_id": "45116bbe87bc25677c0579199da82b8bf91e2d54", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Similarity Estimation (MinHash family)", "approx_tokens": 41}
+{"chunk_id": "4e98c57fa8db4df839c7bda9f60465083118c0f1", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Frequency Estimation (Space-Saving)", "approx_tokens": 50}
+{"chunk_id": "281ab8e2758c77c269babad76dc039450afdcbe8", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Percentile Estimation (t-Digest family)", "approx_tokens": 56}
+{"chunk_id": "7de97de6d2bd495a4895acd77604d344917f8e20", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Aggregation Utilities", "approx_tokens": 47}
+{"chunk_id": "812a8f2e3fe9242e85d4c899455c9cf33ce7189c", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "AI Functions (aggregate variants)", "approx_tokens": 17}
+{"chunk_id": "d46fe87b91b45a9b3304dea0185a060de0540ccb", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Examples (illustrative)", "approx_tokens": 243}
+{"chunk_id": "c7b17e3dbffd61a5c37070bb3f9fa864c30f614e", "doc_id": "commands/AGGREGATE.md", "page_title": "Aggregate Functions", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 168}
+{"chunk_id": "4e72c1465de5c3c2f6c72e247e42c83db6b05079", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "", "approx_tokens": 62}
+{"chunk_id": "4a6e27a03ab299032b9b07adcbec68e796e035ea", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Syntax (core)", "approx_tokens": 99}
+{"chunk_id": "5420e65acc10b21fd848066d5a136665aa54375d", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Usage notes", "approx_tokens": 119}
+{"chunk_id": "2e1aa4b72b12e5643514129de2c6c9024a7c5bce", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Extensions", "approx_tokens": 3}
+{"chunk_id": "e62249906ed8297e2f603050a9bdb9a69370e289", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Extensions > GROUP BY CUBE", "approx_tokens": 72}
+{"chunk_id": "9552e167df47cc2e737d49542144ba61bd75e921", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Extensions > GROUP BY GROUPING SETS", "approx_tokens": 70}
+{"chunk_id": "8274629e30663b07600dc03ff4ef79c62317f4ac", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Extensions > GROUP BY ROLLUP", "approx_tokens": 50}
+{"chunk_id": "bd5eff3918a821e2ff1de1863d0d7b65a800cca9", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Examples: CUBE (sales)", "approx_tokens": 362}
+{"chunk_id": "64a565c2a33a7f9cb7b5bf8cefc0f28e8b768908", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Examples: GROUPING SETS (nurses)", "approx_tokens": 382}
+{"chunk_id": "75cab2bf6eb66fa8698602f581279f0b12a8b766", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Examples: ROLLUP (sales)", "approx_tokens": 202}
+{"chunk_id": "b6eed8932575bcb8ef1ef23795d8563f8d95b5cf", "doc_id": "commands/GROUP.md", "page_title": "GROUP BY", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 144}
+{"chunk_id": "aefab45a710434a975b82d4295f18c888d97dd44", "doc_id": "commands/JOIN.md", "page_title": "JOIN", "heading_path": "", "approx_tokens": 60}
+{"chunk_id": "e608a58b36e9055ab8685e6c11575767ba3b2268", "doc_id": "commands/JOIN.md", "page_title": "JOIN", "heading_path": "Inputs", "approx_tokens": 25}
+{"chunk_id": "3b31325b2af5883bd43d4e741055a6dc70b4dd27", "doc_id": "commands/JOIN.md", "page_title": "JOIN", "heading_path": "JOIN keyword", "approx_tokens": 69}
+{"chunk_id": "e37b0d79e60dfd217615d0875135a1f6859789fa", "doc_id": "commands/JOIN.md", "page_title": "JOIN", "heading_path": "Join types and semantics", "approx_tokens": 449}
+{"chunk_id": "d6c0128a4e8762b2c6b85956237b1351a630a090", "doc_id": "commands/JOIN.md", "page_title": "JOIN", "heading_path": "DIRECTED joins", "approx_tokens": 117}
+{"chunk_id": "5206489adcbb94d18b9f0691e7104c4db7be7d18", "doc_id": "commands/JOIN.md", "page_title": "JOIN", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 105}
+{"chunk_id": "4f51fa4782274aa4cc930c4cf16c067badb2211b", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "", "approx_tokens": 56}
+{"chunk_id": "d046a36f58b6568fed19f0bed83f42061e2ecfd8", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators", "approx_tokens": 6}
+{"chunk_id": "cfee6040c854906f6d43b7fe331e3e386a6bb787", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators > Arithmetic operators", "approx_tokens": 12}
+{"chunk_id": "a67b8cd3290e8d81ec121a8ad3ab50f9d7c19a79", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators > Comparison operators", "approx_tokens": 16}
+{"chunk_id": "b41bf6bcd55d0070b87185e4c19f726760c4f390", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators > Expansion operators", "approx_tokens": 7}
+{"chunk_id": "d5057cf5b0dcec816d0781d303c6dba14d79c0f3", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators > Flow operators", "approx_tokens": 6}
+{"chunk_id": "0e56e616399401df038e1f614b04f8866f263afa", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators > Logical operators", "approx_tokens": 10}
+{"chunk_id": "3f5c72680aed0f6a5f29fab79b44e7a7eec5b83d", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators > Set operators", "approx_tokens": 14}
+{"chunk_id": "615242de56ed51cf31cb59443d395e16070f74c8", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Categories and operators > Subquery operators", "approx_tokens": 16}
+{"chunk_id": "b08899716c93071273eca3b0bdc51a3ba2307431", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Notes", "approx_tokens": 76}
+{"chunk_id": "443ef23e74ae5f93c69ece53ed72f8dcce649b67", "doc_id": "commands/OPERATORS.md", "page_title": "Query Operators", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 121}
+{"chunk_id": "a90adc4839251d58e40f55e70f69dc29fbbfc92c", "doc_id": "commands/ORDER.md", "page_title": "ORDER BY", "heading_path": "", "approx_tokens": 20}
+{"chunk_id": "b27950946130d6dc286417eb0bb6bdf05a696914", "doc_id": "commands/ORDER.md", "page_title": "ORDER BY", "heading_path": "Syntax", "approx_tokens": 2}
+{"chunk_id": "090b6659a44a39addd947e7ac856d7941fc83331", "doc_id": "commands/ORDER.md", "page_title": "ORDER BY", "heading_path": "Syntax > Sorting by specific columns", "approx_tokens": 59}
+{"chunk_id": "95d036ce21b4f337d36a32dac3fa32bb308347d8", "doc_id": "commands/ORDER.md", "page_title": "ORDER BY", "heading_path": "Syntax > Sorting by all columns", "approx_tokens": 34}
+{"chunk_id": "02fb4dd9383baac643ee53af3debe48f27fa781b", "doc_id": "commands/ORDER.md", "page_title": "ORDER BY", "heading_path": "Parameters", "approx_tokens": 166}
+{"chunk_id": "754daf8fb76afe8a12ee0a03a09e571679fe68d2", "doc_id": "commands/ORDER.md", "page_title": "ORDER BY", "heading_path": "Usage notes", "approx_tokens": 111}
+{"chunk_id": "4c10e1f74cf850fd423d5c57934e66a348095a48", "doc_id": "commands/ORDER.md", "page_title": "ORDER BY", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 76}
+{"chunk_id": "9df809f502806d9232aa90a84c7bef8d2d5cb3c3", "doc_id": "commands/QUALIFY.md", "page_title": "QUALIFY", "heading_path": "", "approx_tokens": 106}
+{"chunk_id": "61485f9c42d5dfd971f079bcdad94744525fcaaa", "doc_id": "commands/QUALIFY.md", "page_title": "QUALIFY", "heading_path": "Syntax", "approx_tokens": 58}
+{"chunk_id": "65cddf6a55ff9585533c434c3c2539ca83966b6a", "doc_id": "commands/QUALIFY.md", "page_title": "QUALIFY", "heading_path": "Parameters", "approx_tokens": 74}
+{"chunk_id": "36245de06fc6f088adf5b81976c2c8ed6ec75c0d", "doc_id": "commands/QUALIFY.md", "page_title": "QUALIFY", "heading_path": "Usage notes", "approx_tokens": 99}
+{"chunk_id": "92a105b210e5b6d8f0dff7f6f4b26704990ab946", "doc_id": "commands/QUALIFY.md", "page_title": "QUALIFY", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 90}
+{"chunk_id": "e0e4e3a132a034b82eb772cc2ec3eeaecb9b09a2", "doc_id": "commands/QUALIFY.md", "page_title": "QUALIFY", "heading_path": "Examples", "approx_tokens": 237}
+{"chunk_id": "c51accef2ac08703d93d18ac35ed084d3eb37467", "doc_id": "commands/SELECT.md", "page_title": "SELECT", "heading_path": "", "approx_tokens": 80}
+{"chunk_id": "a5ede96c6253af36fc58c3383e80bbf548773f20", "doc_id": "commands/SELECT.md", "page_title": "SELECT", "heading_path": "Syntax — selecting all columns", "approx_tokens": 154}
+{"chunk_id": "0e00019252e448f09fbf17a7fc764669391db9c9", "doc_id": "commands/SELECT.md", "page_title": "SELECT", "heading_path": "Notes", "approx_tokens": 138}
+{"chunk_id": "a5922a52703020adbf780ed9f9155a5618e01a86", "doc_id": "commands/SELECT.md", "page_title": "SELECT", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 99}
+{"chunk_id": "712f36ae18e5b71879a5839680bdda7381a891d8", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "", "approx_tokens": 49}
+{"chunk_id": "0796f948d7095efe9d4fd8f8fc12c8fb122773b2", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "User-defined function (UDF)", "approx_tokens": 31}
+{"chunk_id": "3c0d9b44079fc00d7f82f3cfae84f273a570f733", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "Data metric function (DMF)", "approx_tokens": 123}
+{"chunk_id": "31e0b65f4e7076271815cda7d92539fc92b0e3d3", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "Service function (Snowpark Container Services)", "approx_tokens": 60}
+{"chunk_id": "006231c458681b4e99197148bddff5a59e05ed0c", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "External function", "approx_tokens": 31}
+{"chunk_id": "2b887a3faca16fbfeb72d9b6f26483a1204d55c7", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "Stored procedure", "approx_tokens": 44}
+{"chunk_id": "10d8e0684281af5d0e68a7611a8fe13916b422c7", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "Scripting", "approx_tokens": 14}
+{"chunk_id": "f107eb8f6fa5e372b0d04d8656e5e4dc9e2de35b", "doc_id": "commands/SENTENCES.md", "page_title": "Functions, Procedures, and Scripting Commands", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 105}
+{"chunk_id": "c2487829e5e8f1fca41694425afe988df84af62a", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "", "approx_tokens": 148}
+{"chunk_id": "a121c25f874c2a83c594c4726c83457c6ef19d83", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Variable declaration", "approx_tokens": 25}
+{"chunk_id": "dd401693f605a5859816e3349d9628933eaaf697", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Block structure", "approx_tokens": 20}
+{"chunk_id": "bc07b367cec3df76b1954cd18bad1300cbb09bca", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Branching", "approx_tokens": 52}
+{"chunk_id": "70c1ccf4a71647ac24a8a0885754a15eaf427fec", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Looping constructs", "approx_tokens": 5}
+{"chunk_id": "0c7ec31e4656c38ea6cc70e8299400084d3f8eec", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Looping constructs > FOR loop (cursor-based)", "approx_tokens": 35}
+{"chunk_id": "e0195e6bf1247eb2421c886b85af29f891eae5d1", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Looping constructs > FOR loop (counter-based)", "approx_tokens": 84}
+{"chunk_id": "9c327d8f0d95478d566d2469579f27fbb810b583", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Looping constructs > WHILE loop", "approx_tokens": 110}
+{"chunk_id": "7a2445d3f8b3cb68a49f3ab1c9d3da019694e985", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Looping constructs > REPEAT loop", "approx_tokens": 84}
+{"chunk_id": "00541383f1c31a4cd8aa38c4e08cbf051b0baf1c", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Looping constructs > LOOP (infinite)", "approx_tokens": 58}
+{"chunk_id": "ef2bb3b3983a1873a2725b0cacbed4317c02829b", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Looping constructs > Loop termination", "approx_tokens": 26}
+{"chunk_id": "559bb0fd4c1d20a62aa0ad50af5f8c1a1eccc28f", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Variable assignment", "approx_tokens": 18}
+{"chunk_id": "19f593d24a19b7bf6ac826a3a9dc075289f508b4", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Cursor management", "approx_tokens": 28}
+{"chunk_id": "f21ada1f95f8e787856131e93eceeae016b40d4e", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Asynchronous child jobs", "approx_tokens": 23}
+{"chunk_id": "150dcf8244126ea3a9e8d6a314ed86fefaac0a2a", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "No-operation statement", "approx_tokens": 29}
+{"chunk_id": "0c713c35b8c8083653a30945b96f716cf7657cdb", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Raising exceptions", "approx_tokens": 36}
+{"chunk_id": "bdeb290130008069b8d7d47d3f7fb3a6939f3812", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Returning values", "approx_tokens": 14}
+{"chunk_id": "58fbaea69614bcfb446259ab7ec28e87385bfd5d", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Exception handling", "approx_tokens": 26}
+{"chunk_id": "3e229daefaa07246d1051f69645598226775e28d", "doc_id": "scripting/Snowflake Scripting Reference.md", "page_title": "Snowflake Scripting Reference", "heading_path": "Translator guidance (LLM-facing)", "approx_tokens": 168}

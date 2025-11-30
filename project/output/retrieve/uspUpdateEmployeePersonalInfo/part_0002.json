@@ -1,0 +1,90 @@
+{
+  "chunks": [
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Returning values",
+      "chunk_id": "bdeb290130008069b8d7d47d3f7fb3a6939f3812",
+      "score": 0.5001,
+      "cosine": 0.7145,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Returning values"
+    },
+    {
+      "doc_id": "commands/AGGREGATE.md",
+      "page_title": "Aggregate Functions",
+      "heading_path": "General Aggregation",
+      "chunk_id": "58a2ea8d0d5068cbe3a9f54622d35c5a42ee29c4",
+      "score": 0.4967,
+      "cosine": 0.7096,
+      "keyword_overlap": 0.0,
+      "citation": "Aggregate Functions > General Aggregation"
+    },
+    {
+      "doc_id": "commands/GROUP.md",
+      "page_title": "GROUP BY",
+      "heading_path": "Usage notes",
+      "chunk_id": "5420e65acc10b21fd848066d5a136665aa54375d",
+      "score": 0.4927,
+      "cosine": 0.7038,
+      "keyword_overlap": 0.0,
+      "citation": "GROUP BY > Usage notes"
+    },
+    {
+      "doc_id": "commands/AGGREGATE.md",
+      "page_title": "Aggregate Functions",
+      "heading_path": "Translator guidance (LLM-facing)",
+      "chunk_id": "c7b17e3dbffd61a5c37070bb3f9fa864c30f614e",
+      "score": 0.4882,
+      "cosine": 0.6974,
+      "keyword_overlap": 0.0,
+      "citation": "Aggregate Functions > Translator guidance (LLM-facing)"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Looping constructs > REPEAT loop",
+      "chunk_id": "7a2445d3f8b3cb68a49f3ab1c9d3da019694e985",
+      "score": 0.4864,
+      "cosine": 0.6949,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Looping constructs > REPEAT loop"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Looping constructs > FOR loop (cursor-based)",
+      "chunk_id": "0c7ec31e4656c38ea6cc70e8299400084d3f8eec",
+      "score": 0.4859,
+      "cosine": 0.6942,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Looping constructs > FOR loop (cursor-based)"
+    },
+    {
+      "doc_id": "commands/AGGREGATE.md",
+      "page_title": "Aggregate Functions",
+      "heading_path": "Aggregation Utilities",
+      "chunk_id": "7de97de6d2bd495a4895acd77604d344917f8e20",
+      "score": 0.4851,
+      "cosine": 0.693,
+      "keyword_overlap": 0.0,
+      "citation": "Aggregate Functions > Aggregation Utilities"
+    },
+    {
+      "doc_id": "commands/QUALIFY.md",
+      "page_title": "QUALIFY",
+      "heading_path": "Examples",
+      "chunk_id": "e0e4e3a132a034b82eb772cc2ec3eeaecb9b09a2",
+      "score": 0.4835,
+      "cosine": 0.6907,
+      "keyword_overlap": 0.0,
+      "citation": "QUALIFY > Examples"
+    }
+  ],
+  "retrieval_weak": false,
+  "stats": {
+    "candidates": 90,
+    "after_dedupe": 8,
+    "threshold": 0.25
+  }
+}

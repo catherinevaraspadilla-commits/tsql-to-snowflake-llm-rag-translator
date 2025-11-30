@@ -1,0 +1,92 @@
+[
+  {
+    "idx": 1,
+    "span_index": 0,
+    "object_type": "admin",
+    "category": "dont_translate",
+    "reason": "preamble/top-level",
+    "name": null,
+    "file_offset": 0
+  },
+  {
+    "idx": 2,
+    "span_index": 202,
+    "object_type": "procedure",
+    "category": "translate",
+    "reason": "CREATE PROCEDURE",
+    "name": "HumanResources].[uspUpdateEmployeeHireInfo",
+    "file_offset": 202
+  },
+  {
+    "idx": 3,
+    "span_index": 1346,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 1346
+  },
+  {
+    "idx": 4,
+    "span_index": 1670,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 1670
+  },
+  {
+    "idx": 5,
+    "span_index": 2045,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 2045
+  },
+  {
+    "idx": 6,
+    "span_index": 2388,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 2388
+  },
+  {
+    "idx": 7,
+    "span_index": 2735,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 2735
+  },
+  {
+    "idx": 8,
+    "span_index": 3102,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 3102
+  },
+  {
+    "idx": 9,
+    "span_index": 3446,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 3446
+  },
+  {
+    "idx": 10,
+    "span_index": 3803,
+    "object_type": "metadata",
+    "category": "dont_translate",
+    "reason": "EXEC sp_addextendedproperty",
+    "name": null,
+    "file_offset": 3803
+  }
+]
