@@ -1,0 +1,18 @@
+{
+  "citations": [
+    "GROUP BY > Usage notes",
+    "Aggregate Functions > General Aggregation",
+    "SELECT > Notes",
+    "Query Operators > Notes",
+    "Aggregate Functions > Aggregation Utilities",
+    "Aggregate Functions > Translator guidance (LLM-facing)",
+    "QUALIFY > Examples",
+    "Aggregate Functions > Examples (illustrative)"
+  ],
+  "todos": [],
+  "notes": [
+    "conservative",
+    "phase4-pass1"
+  ],
+  "retrieval_weak": false
+}

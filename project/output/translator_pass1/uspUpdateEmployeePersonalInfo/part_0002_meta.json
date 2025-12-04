@@ -1,0 +1,20 @@
+{
+  "citations": [
+    "Snowflake Scripting Reference > Returning values",
+    "Aggregate Functions > General Aggregation",
+    "GROUP BY > Usage notes",
+    "Aggregate Functions > Translator guidance (LLM-facing)",
+    "Snowflake Scripting Reference > Looping constructs > REPEAT loop",
+    "Snowflake Scripting Reference > Looping constructs > FOR loop (cursor-based)",
+    "Aggregate Functions > Aggregation Utilities",
+    "QUALIFY > Examples"
+  ],
+  "todos": [
+    "-- TODO: Replace 'dbo.uspLogError' with the appropriate Snowflake error logging procedure if available"
+  ],
+  "notes": [
+    "conservative",
+    "phase4-pass1"
+  ],
+  "retrieval_weak": false
+}

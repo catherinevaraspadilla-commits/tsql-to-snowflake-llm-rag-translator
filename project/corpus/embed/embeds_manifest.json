@@ -1,0 +1,454 @@
+{
+  "chunks": {
+    "7c6905cc602efe4323074f8ba0aaa4d9dd65ec9b": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "0059dbce0daf652fb66e7dca750a3e7df677f696",
+      "dim": 1536
+    },
+    "84f52895e4d9589cdbec0977947b7f9c6e183bfe": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "f0075b7f6c9e3b05751e4e005b53a88096974098",
+      "dim": 1536
+    },
+    "58a2ea8d0d5068cbe3a9f54622d35c5a42ee29c4": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "2914d91963d117218f64b95423fe2b3ebed923ba",
+      "dim": 1536
+    },
+    "06a801e04a692fac8ee7a5b7d3a7678dc6cbf306": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "6bed3a823a33fa2452e6cc127a95ed81b310357d",
+      "dim": 1536
+    },
+    "574fa22430cf02ae6b4f95ab4cc30542d6a42947": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "2beed3606433e453009c33c84c58e4e1c839d55b",
+      "dim": 1536
+    },
+    "3d0a6b9bce7b26e06be9431a4b301c948a28412d": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "206a8c3d8423816be3b76cace19899c8def2c1fc",
+      "dim": 1536
+    },
+    "117a5bdc9a27656e2d8ceddb3af3875bac9ddd0e": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "a7ca9cd8e84945d19b925d61589bbcf002f1108f",
+      "dim": 1536
+    },
+    "dc5007eebf17a08f12844746def384624acbc2e3": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "c5c5ffa93f7e1722e21d622131a4655996782bc6",
+      "dim": 1536
+    },
+    "b1842667554006383724624c2c4b10c037a5fb6e": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "9893dbc92a812d485d3e20b74de6aba49f78a571",
+      "dim": 1536
+    },
+    "0561eafeb89f2d0c98e5c93fdff5feb2d705ba70": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "d680a620fcee9179759c3f953867ef25a47566e6",
+      "dim": 1536
+    },
+    "2bc6056d5078722ced72932e88a4aff73c1c544c": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "98352a85365f6fa59a79a2f3928eaf783273dfcc",
+      "dim": 1536
+    },
+    "45116bbe87bc25677c0579199da82b8bf91e2d54": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "768d70e7abd3852c55ca8d253b1c703abf57b247",
+      "dim": 1536
+    },
+    "4e98c57fa8db4df839c7bda9f60465083118c0f1": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "fdc0bc117680e917616ca6a3cde750e4eccfbf60",
+      "dim": 1536
+    },
+    "281ab8e2758c77c269babad76dc039450afdcbe8": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "c0ebfbd70f37b411708132dcc61ef98dbabd4888",
+      "dim": 1536
+    },
+    "7de97de6d2bd495a4895acd77604d344917f8e20": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "b3201267793b97dc33e54d2cb1838aa0265f3703",
+      "dim": 1536
+    },
+    "812a8f2e3fe9242e85d4c899455c9cf33ce7189c": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "13f4b988f5c1066f9e3abf12bc081f1816294f44",
+      "dim": 1536
+    },
+    "d46fe87b91b45a9b3304dea0185a060de0540ccb": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "1619b8c91a60e39b24f5ba238821a3b7b689a361",
+      "dim": 1536
+    },
+    "c7b17e3dbffd61a5c37070bb3f9fa864c30f614e": {
+      "doc_id": "commands/AGGREGATE.md",
+      "sha1": "9594196bcb8c4c67178fee2bf907985540c21a86",
+      "dim": 1536
+    },
+    "4e72c1465de5c3c2f6c72e247e42c83db6b05079": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "9becff23a5309ae0478332f8e4d43e07286bf6c7",
+      "dim": 1536
+    },
+    "4a6e27a03ab299032b9b07adcbec68e796e035ea": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "1ab751113a1247930e2cc0496dffa95b1aec206a",
+      "dim": 1536
+    },
+    "5420e65acc10b21fd848066d5a136665aa54375d": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "bae504c37251abc7e3bc94921f0befcece2e605e",
+      "dim": 1536
+    },
+    "2e1aa4b72b12e5643514129de2c6c9024a7c5bce": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "89a78c380f29f480f87b74b864d3a889041b2673",
+      "dim": 1536
+    },
+    "e62249906ed8297e2f603050a9bdb9a69370e289": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "5d75bf781df0fe65cc30b8ae087f2a8406b16604",
+      "dim": 1536
+    },
+    "9552e167df47cc2e737d49542144ba61bd75e921": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "f301c3af5a4bd841fef363c62232fe6f2ff168d7",
+      "dim": 1536
+    },
+    "8274629e30663b07600dc03ff4ef79c62317f4ac": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "d6352c5fcf711b346597d95b76cc202ded4dbebf",
+      "dim": 1536
+    },
+    "bd5eff3918a821e2ff1de1863d0d7b65a800cca9": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "d1284c7f95431188430ecf34e5316da504678280",
+      "dim": 1536
+    },
+    "64a565c2a33a7f9cb7b5bf8cefc0f28e8b768908": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "5bf78dacf049f5cb1cf97dd7b8a34c2640f4e1dd",
+      "dim": 1536
+    },
+    "75cab2bf6eb66fa8698602f581279f0b12a8b766": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "41511674764b2e5e6df43acf454c5b2f09e32c71",
+      "dim": 1536
+    },
+    "b6eed8932575bcb8ef1ef23795d8563f8d95b5cf": {
+      "doc_id": "commands/GROUP.md",
+      "sha1": "f4e7b849f6ed41feba26b9a817dc6844a9a69a59",
+      "dim": 1536
+    },
+    "aefab45a710434a975b82d4295f18c888d97dd44": {
+      "doc_id": "commands/JOIN.md",
+      "sha1": "18055b6aba3255d81a74b2373313f9b0b8eb6289",
+      "dim": 1536
+    },
+    "e608a58b36e9055ab8685e6c11575767ba3b2268": {
+      "doc_id": "commands/JOIN.md",
+      "sha1": "12a7d2c676215ce77332a9604cdf1cdeac1ea9f7",
+      "dim": 1536
+    },
+    "3b31325b2af5883bd43d4e741055a6dc70b4dd27": {
+      "doc_id": "commands/JOIN.md",
+      "sha1": "a4b6d2f6d19e5e52779d99ec0fe5be847039d976",
+      "dim": 1536
+    },
+    "e37b0d79e60dfd217615d0875135a1f6859789fa": {
+      "doc_id": "commands/JOIN.md",
+      "sha1": "d3638786f4b0c774a6b28c1b226c0ee0dd0d85f4",
+      "dim": 1536
+    },
+    "d6c0128a4e8762b2c6b85956237b1351a630a090": {
+      "doc_id": "commands/JOIN.md",
+      "sha1": "6f43cf7d1d39561bf2499978b2598b34dcf93764",
+      "dim": 1536
+    },
+    "5206489adcbb94d18b9f0691e7104c4db7be7d18": {
+      "doc_id": "commands/JOIN.md",
+      "sha1": "82362c86e2a830abf228d63b46c9cf28beaa58a2",
+      "dim": 1536
+    },
+    "4f51fa4782274aa4cc930c4cf16c067badb2211b": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "ccb07bf7b737b639f3102aaedaf7fda37330ced8",
+      "dim": 1536
+    },
+    "d046a36f58b6568fed19f0bed83f42061e2ecfd8": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "eb8c3c2a2cb8c3b30337b96ac345f8720d03ec47",
+      "dim": 1536
+    },
+    "cfee6040c854906f6d43b7fe331e3e386a6bb787": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "c3e4aaf03e7b8a8cd9a24ed94e5b75f52461c25d",
+      "dim": 1536
+    },
+    "a67b8cd3290e8d81ec121a8ad3ab50f9d7c19a79": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "f31a75e1a39f389557277853fc1f42b0777a3533",
+      "dim": 1536
+    },
+    "b41bf6bcd55d0070b87185e4c19f726760c4f390": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "031d993e75c3e1279e11111afbdc677488c4b683",
+      "dim": 1536
+    },
+    "d5057cf5b0dcec816d0781d303c6dba14d79c0f3": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "b97475ad6a5bac293ac3e015bca568e522778938",
+      "dim": 1536
+    },
+    "0e56e616399401df038e1f614b04f8866f263afa": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "fe3db2b6a0425c5bd90df920786aea6b04ff412a",
+      "dim": 1536
+    },
+    "3f5c72680aed0f6a5f29fab79b44e7a7eec5b83d": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "e3b98b1f442f39a6fb19ce2597a3d79f665b84a0",
+      "dim": 1536
+    },
+    "615242de56ed51cf31cb59443d395e16070f74c8": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "d378460f96f89e5ddbd4e5570819f65da42ad733",
+      "dim": 1536
+    },
+    "b08899716c93071273eca3b0bdc51a3ba2307431": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "cd8134cef56393ff05c019fc1f3fa1608f1f7dbc",
+      "dim": 1536
+    },
+    "443ef23e74ae5f93c69ece53ed72f8dcce649b67": {
+      "doc_id": "commands/OPERATORS.md",
+      "sha1": "d53401fe6f5625499c0b0329cc17c3b136caee90",
+      "dim": 1536
+    },
+    "a90adc4839251d58e40f55e70f69dc29fbbfc92c": {
+      "doc_id": "commands/ORDER.md",
+      "sha1": "ecb7e10d3c56cc82fb37e9d86d7837c3859da3e7",
+      "dim": 1536
+    },
+    "b27950946130d6dc286417eb0bb6bdf05a696914": {
+      "doc_id": "commands/ORDER.md",
+      "sha1": "7c4509831df379d8c59343c2bc16eb9ac36c6cbe",
+      "dim": 1536
+    },
+    "090b6659a44a39addd947e7ac856d7941fc83331": {
+      "doc_id": "commands/ORDER.md",
+      "sha1": "9bc4e8aabc4d7f0fe1f89140f154978b9f19e307",
+      "dim": 1536
+    },
+    "95d036ce21b4f337d36a32dac3fa32bb308347d8": {
+      "doc_id": "commands/ORDER.md",
+      "sha1": "574cf3776fcab190e109d24066ed49ffccdd6b06",
+      "dim": 1536
+    },
+    "02fb4dd9383baac643ee53af3debe48f27fa781b": {
+      "doc_id": "commands/ORDER.md",
+      "sha1": "c9ae579571177f31bc60ed438efc35587e980b08",
+      "dim": 1536
+    },
+    "754daf8fb76afe8a12ee0a03a09e571679fe68d2": {
+      "doc_id": "commands/ORDER.md",
+      "sha1": "ee06139c5d657625958d6889bfb683b238d2aab6",
+      "dim": 1536
+    },
+    "4c10e1f74cf850fd423d5c57934e66a348095a48": {
+      "doc_id": "commands/ORDER.md",
+      "sha1": "2827011a61ad588d29f244d4d356ef57678271c0",
+      "dim": 1536
+    },
+    "9df809f502806d9232aa90a84c7bef8d2d5cb3c3": {
+      "doc_id": "commands/QUALIFY.md",
+      "sha1": "550e025bb8dcaf8706b21e78728102dff9fc4a80",
+      "dim": 1536
+    },
+    "61485f9c42d5dfd971f079bcdad94744525fcaaa": {
+      "doc_id": "commands/QUALIFY.md",
+      "sha1": "1a6a103cce4dbe36124ff2ccc35af647d0975fae",
+      "dim": 1536
+    },
+    "65cddf6a55ff9585533c434c3c2539ca83966b6a": {
+      "doc_id": "commands/QUALIFY.md",
+      "sha1": "b94ae103e4ffc6a26c2302049c39fcf903eb83d8",
+      "dim": 1536
+    },
+    "36245de06fc6f088adf5b81976c2c8ed6ec75c0d": {
+      "doc_id": "commands/QUALIFY.md",
+      "sha1": "a16371b67fbe276e19ea1144c8cfe1a6b1ee74ed",
+      "dim": 1536
+    },
+    "92a105b210e5b6d8f0dff7f6f4b26704990ab946": {
+      "doc_id": "commands/QUALIFY.md",
+      "sha1": "12c10c66c9cd5983101bd33ec6b723c4aa9aea03",
+      "dim": 1536
+    },
+    "e0e4e3a132a034b82eb772cc2ec3eeaecb9b09a2": {
+      "doc_id": "commands/QUALIFY.md",
+      "sha1": "19299c34b74b390520e9a47bc4b0d7f7b9aa4d98",
+      "dim": 1536
+    },
+    "c51accef2ac08703d93d18ac35ed084d3eb37467": {
+      "doc_id": "commands/SELECT.md",
+      "sha1": "ed17e29be85ea308573efc4ab49de2b084f42fad",
+      "dim": 1536
+    },
+    "a5ede96c6253af36fc58c3383e80bbf548773f20": {
+      "doc_id": "commands/SELECT.md",
+      "sha1": "9bc08ba8e009f351a53837a478337a202f408ab0",
+      "dim": 1536
+    },
+    "0e00019252e448f09fbf17a7fc764669391db9c9": {
+      "doc_id": "commands/SELECT.md",
+      "sha1": "e3d0e6d6b38ea13d0f30847c1e276c1f8134624d",
+      "dim": 1536
+    },
+    "a5922a52703020adbf780ed9f9155a5618e01a86": {
+      "doc_id": "commands/SELECT.md",
+      "sha1": "7025cde25145d38994b7fa61bbc581d53f105560",
+      "dim": 1536
+    },
+    "712f36ae18e5b71879a5839680bdda7381a891d8": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "2695b95a6dbcd9ccdc3400fe7718d7fa0e8efb38",
+      "dim": 1536
+    },
+    "0796f948d7095efe9d4fd8f8fc12c8fb122773b2": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "df59d8e7347d90716f043388eff10584947ff55b",
+      "dim": 1536
+    },
+    "3c0d9b44079fc00d7f82f3cfae84f273a570f733": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "4899381308491e23afbfdea90909db8e388926cd",
+      "dim": 1536
+    },
+    "31e0b65f4e7076271815cda7d92539fc92b0e3d3": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "3af72c8c70444d75deea351817b375a8400bea92",
+      "dim": 1536
+    },
+    "006231c458681b4e99197148bddff5a59e05ed0c": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "82313c757e7fae0f98d9ecca37c3bcc424bb0f0f",
+      "dim": 1536
+    },
+    "2b887a3faca16fbfeb72d9b6f26483a1204d55c7": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "3feb1946760e6c8dd2527fc746b91006150262d2",
+      "dim": 1536
+    },
+    "10d8e0684281af5d0e68a7611a8fe13916b422c7": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "bbb3507112e21c05920fef729abb378426354c85",
+      "dim": 1536
+    },
+    "f107eb8f6fa5e372b0d04d8656e5e4dc9e2de35b": {
+      "doc_id": "commands/SENTENCES.md",
+      "sha1": "dc231382bc54b49b49226a73793c06c217b85e88",
+      "dim": 1536
+    },
+    "c2487829e5e8f1fca41694425afe988df84af62a": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "e2d7fb4f5ca5a5998a2d98c26429dc0448459962",
+      "dim": 1536
+    },
+    "a121c25f874c2a83c594c4726c83457c6ef19d83": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "46b388e656d6e19d2653fc42d353ec84bc1447a7",
+      "dim": 1536
+    },
+    "dd401693f605a5859816e3349d9628933eaaf697": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "d816afd0744453b31e553315410a1edb4cfb1a62",
+      "dim": 1536
+    },
+    "bc07b367cec3df76b1954cd18bad1300cbb09bca": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "47a8e4a23a40924afa06c9c1659d521ab5c5f794",
+      "dim": 1536
+    },
+    "70c1ccf4a71647ac24a8a0885754a15eaf427fec": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "748ec455692e2941e103be0c828a7bd8389e5877",
+      "dim": 1536
+    },
+    "0c7ec31e4656c38ea6cc70e8299400084d3f8eec": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "dd507455996e031fcec09c401d609fcfcb2ec930",
+      "dim": 1536
+    },
+    "e0195e6bf1247eb2421c886b85af29f891eae5d1": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "147748ed9943519e9d7535c973a9eaef295d815a",
+      "dim": 1536
+    },
+    "9c327d8f0d95478d566d2469579f27fbb810b583": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "3238e38c9f0ef0c0ea5d9fea1ff306f598bf3f27",
+      "dim": 1536
+    },
+    "7a2445d3f8b3cb68a49f3ab1c9d3da019694e985": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "ad6120a31dad143417bffc60e1ae3d0a7589e8c6",
+      "dim": 1536
+    },
+    "00541383f1c31a4cd8aa38c4e08cbf051b0baf1c": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "719e5948e4b459cf2a839b4b1fb0662912bd04da",
+      "dim": 1536
+    },
+    "ef2bb3b3983a1873a2725b0cacbed4317c02829b": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "551ecf434176108bf6c69af9a272403a39891770",
+      "dim": 1536
+    },
+    "559bb0fd4c1d20a62aa0ad50af5f8c1a1eccc28f": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "be677a59e5659e334f49b5e40b4cd1cc5f0487b6",
+      "dim": 1536
+    },
+    "19f593d24a19b7bf6ac826a3a9dc075289f508b4": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "53d7e1888b8ed7ab311835c7f6080257622c7388",
+      "dim": 1536
+    },
+    "f21ada1f95f8e787856131e93eceeae016b40d4e": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "7f01fd206ce001ef01d33e0d7788fc1aa1566b19",
+      "dim": 1536
+    },
+    "150dcf8244126ea3a9e8d6a314ed86fefaac0a2a": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "276865322669ebd87d6a9331755ce77e8c73310d",
+      "dim": 1536
+    },
+    "0c713c35b8c8083653a30945b96f716cf7657cdb": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "577776e0d27e2bce15637e6403ebe8dac4cbbf8a",
+      "dim": 1536
+    },
+    "bdeb290130008069b8d7d47d3f7fb3a6939f3812": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "33624b74040777e3d7191d1c5b764cf628894c5f",
+      "dim": 1536
+    },
+    "58fbaea69614bcfb446259ab7ec28e87385bfd5d": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "a40b859022259aeb33573cbe1b4747071775d3cd",
+      "dim": 1536
+    },
+    "3e229daefaa07246d1051f69645598226775e28d": {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "sha1": "6a61fede2ed30f9f188dd1e43cd846154552dc8c",
+      "dim": 1536
+    }
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "doc_id": "commands/AGGREGATE.md",
+    "page_title": "Aggregate Functions",
+    "topic": "commands",
+    "section_path": "SQL Functions > Aggregate Functions",
+    "tags": ["aggregate", "count", "sum", "avg", "min", "max", "stddev", "variance", "percentile", "listagg", "approx", "hll", "grouping", "regression"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "commands/GROUP.md",
+    "page_title": "GROUP BY",
+    "topic": "commands",
+    "section_path": "SQL Command Reference > GROUP BY",
+    "tags": ["group-by", "aggregates", "having", "cube", "grouping-sets", "rollup", "grouping-columns", "positional-index"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "commands/JOIN.md",
+    "page_title": "JOIN",
+    "topic": "commands",
+    "section_path": "SQL Command Reference > JOIN",
+    "tags": ["join", "inner", "left-outer", "right-outer", "full-outer", "cross", "natural", "on", "where", "directed", "cartesian"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "commands/OPERATORS.md",
+    "page_title": "Query Operators",
+    "topic": "commands",
+    "section_path": "SQL Reference > Operators",
+    "tags": ["operators", "arithmetic", "comparison", "logical", "set", "subquery", "exists", "in", "any", "all", "union", "intersect", "minus", "except", "expansion", "flow"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "commands/ORDER.md",
+    "page_title": "ORDER BY",
+    "topic": "commands",
+    "section_path": "SQL Command Reference > ORDER BY",
+    "tags": ["order-by", "sort", "asc", "desc", "nulls-first", "nulls-last", "all", "position", "column-alias", "select-order"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "commands/QUALIFY.md",
+    "page_title": "QUALIFY",
+    "topic": "commands",
+    "section_path": "SQL Command Reference > QUALIFY",
+    "tags": ["qualify", "window", "row-number", "dense-rank", "rank", "over", "partition-by", "having", "predicate", "filter", "select-order"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "commands/SELECT.md",
+    "page_title": "SELECT",
+    "topic": "commands",
+    "section_path": "SQL Command Reference > SELECT",
+    "tags": ["select", "all", "distinct", "top", "limit", "replace", "rename", "exclude", "ilike", "projection", "qualify"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "commands/SENTENCES.md",
+    "page_title": "SENTENCES",
+    "topic": "commands",
+    "section_path": "SQL Command Reference > SENTENCES",
+    "tags": ["internal", "parsing", "sentences", "chunking", "meta"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "datatypes/Data Type Conversion.md",
+    "page_title": "Data Type Conversion",
+    "topic": "datatypes",
+    "section_path": "SQL Data Types > Conversion",
+    "tags": ["cast", "convert", "coercion", "implicit-cast", "explicit-cast", "to-date", "to-double", "to-number", "type-conversion", "cast-function", "cast-operator"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "datatypes/Date and Time Data Types.md",
+    "page_title": "Date and Time Data Types",
+    "topic": "datatypes",
+    "section_path": "SQL Data Types > Date and Time",
+    "tags": ["date", "time", "datetime", "timestamp", "timestamp-ltz", "timestamp-ntz", "timestamp-tz", "timezone", "format", "precision", "utc", "mapping"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "datatypes/Logical Data Types.md",
+    "page_title": "Logical Data Types",
+    "topic": "datatypes",
+    "section_path": "SQL Data Types > Logical",
+    "tags": ["boolean", "logic", "true", "false", "null", "ternary", "predicates", "where", "expressions"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "datatypes/Numeric Data Types.md",
+    "page_title": "Numeric Data Types",
+    "topic": "datatypes",
+    "section_path": "SQL Data Types > Numeric",
+    "tags": ["number", "decimal", "numeric", "int", "integer", "bigint", "float", "double", "real", "precision", "scale", "nan", "inf", "rounding", "fixed-point", "floating-point"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "datatypes/Semi-Structured Data Types.md",
+    "page_title": "Semi-Structured Data Types",
+    "topic": "datatypes",
+    "section_path": "SQL Data Types > Semi-Structured",
+    "tags": ["variant", "object", "array", "semi-structured", "json", "parse-json", "object-construct", "array-construct", "key-value", "flexible-schema"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "datatypes/String and Binary Formats.md",
+    "page_title": "Overview of Supported Binary Formats",
+    "topic": "datatypes",
+    "section_path": "SQL Data Types > Binary",
+    "tags": ["binary", "hex", "to-binary", "varchar", "encoding", "base16", "hex-format", "case-insensitive"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  },
+  {
+    "doc_id": "scripting/Snowflake Scripting Reference.md",
+    "page_title": "Snowflake Scripting Reference",
+    "topic": "scripting",
+    "section_path": "Snowflake Scripting > Reference",
+    "tags": ["declare", "if", "case", "for", "while", "repeat", "loop", "break", "continue", "let", "open", "fetch", "close", "await", "cancel", "raise", "return", "exception", "cursor", "snowflake-scripting", "control-flow"],
+    "url": "TODO",
+    "version": "2025-10-22"
+  }
+]

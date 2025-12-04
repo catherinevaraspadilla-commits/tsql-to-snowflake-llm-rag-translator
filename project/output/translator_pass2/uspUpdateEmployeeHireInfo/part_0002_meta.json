@@ -1,0 +1,6 @@
+{
+  "applied_fixes": [],
+  "remaining_todos": [
+    "-- TODO: Verify if dbo.uspLogError() exists and is callable in Snowflake"
+  ]
+}

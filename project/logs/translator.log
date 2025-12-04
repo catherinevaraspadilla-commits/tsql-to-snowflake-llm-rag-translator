@@ -1,0 +1,99 @@
+[2025-10-22 14:59:44] DEBUG: translator logger initialized
+[2025-10-22 14:59:49] INFO: pass1_translate: citations=8 weak=False todos=4
+[2025-10-22 14:59:52] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 14:59:53] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-10-22 14:59:53] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 14:59:55] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-10-22 14:59:55] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 14:59:57] INFO: pass1_translate: citations=8 weak=False todos=2
+[2025-10-22 14:59:57] INFO: pass2_repair: fixes=[] todos_left=2
+[2025-10-22 14:59:58] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-10-22 14:59:58] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 15:00:00] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-10-22 15:00:00] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 15:00:01] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-10-22 15:00:01] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 17:20:59] DEBUG: translator logger initialized
+[2025-10-22 17:21:04] INFO: pass1_translate: citations=8 weak=False todos=4
+[2025-10-22 17:21:06] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 17:21:24] DEBUG: translator logger initialized
+[2025-10-22 17:21:29] INFO: pass1_translate: citations=8 weak=False todos=4
+[2025-10-22 17:21:30] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 17:33:36] DEBUG: translator logger initialized
+[2025-10-22 17:33:40] INFO: pass1_translate: citations=8 weak=False todos=2
+[2025-10-22 17:33:42] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-22 17:33:56] DEBUG: translator logger initialized
+[2025-10-22 17:34:00] INFO: pass1_translate: citations=8 weak=False todos=4
+[2025-10-22 17:34:03] INFO: pass2_repair: fixes=[] todos_left=4
+[2025-10-22 17:34:19] DEBUG: translator logger initialized
+[2025-10-22 17:34:23] INFO: pass1_translate: citations=8 weak=False todos=2
+[2025-10-22 17:34:25] INFO: pass2_repair: fixes=[] todos_left=2
+[2025-10-22 17:43:17] DEBUG: translator logger initialized
+[2025-10-22 17:43:21] INFO: pass1_translate: citations=8 weak=False todos=3
+[2025-10-22 17:43:22] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-23 09:56:13] DEBUG: translator logger initialized
+[2025-10-23 09:56:19] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-10-23 09:56:20] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-23 09:56:22] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 09:56:22] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-23 10:35:27] DEBUG: translator logger initialized
+[2025-10-23 10:35:35] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 10:35:37] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-23 10:35:40] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 10:35:40] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-23 11:07:11] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-10-23 11:07:15] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-10-23 11:07:21] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 11:07:21] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-23 11:07:29] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 11:07:29] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-23 11:07:30] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 11:07:33] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-23 11:07:41] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 11:07:41] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-23 11:07:47] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-23 11:07:47] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-27 14:54:34] DEBUG: translator logger initialized
+[2025-10-27 14:54:43] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-27 14:54:46] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-27 14:54:48] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-27 14:54:48] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-10-27 14:54:51] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-10-27 14:54:51] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-11-30 18:08:37] DEBUG: translator logger initialized
+[2025-11-30 18:08:41] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 18:08:41] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-11-30 18:08:41] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 18:08:41] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-11-30 18:08:42] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 18:08:42] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-11-30 18:08:42] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-11-30 18:08:43] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 18:08:43] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-11-30 18:08:43] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-11-30 20:10:20] DEBUG: translator logger initialized
+[2025-11-30 20:10:27] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 20:10:27] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-11-30 20:10:29] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 20:10:29] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-11-30 20:10:30] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 20:10:30] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-11-30 20:10:32] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 20:10:32] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-11-30 20:10:34] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 20:10:34] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-11-30 20:10:34] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-11-30 20:10:36] ERROR: LLM call failed: Error code: 401 - {'error': {'code': '401', 'message': 'Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource.'}}
+[2025-11-30 20:10:36] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-11-30 20:10:36] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-12-05 07:16:04] DEBUG: translator logger initialized
+[2025-12-05 07:16:13] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-12-05 07:16:18] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-12-05 07:16:25] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-12-05 07:16:28] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-12-05 07:16:30] INFO: pass1_translate: citations=8 weak=False todos=1
+[2025-12-05 07:16:33] INFO: pass2_repair: fixes=[] todos_left=1
+[2025-12-05 07:16:35] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-12-05 07:16:35] INFO: pass2_repair: fixes=[] todos_left=0
+[2025-12-05 07:16:37] INFO: pass1_translate: citations=8 weak=False todos=0
+[2025-12-05 07:16:37] INFO: pass2_repair: fixes=[] todos_left=0

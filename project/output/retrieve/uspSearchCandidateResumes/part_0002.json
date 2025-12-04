@@ -1,0 +1,90 @@
+{
+  "chunks": [
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Looping constructs > FOR loop (cursor-based)",
+      "chunk_id": "0c7ec31e4656c38ea6cc70e8299400084d3f8eec",
+      "score": 0.5132,
+      "cosine": 0.7332,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Looping constructs > FOR loop (cursor-based)"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Returning values",
+      "chunk_id": "bdeb290130008069b8d7d47d3f7fb3a6939f3812",
+      "score": 0.5132,
+      "cosine": 0.7332,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Returning values"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Branching",
+      "chunk_id": "bc07b367cec3df76b1954cd18bad1300cbb09bca",
+      "score": 0.5091,
+      "cosine": 0.7273,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Branching"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Block structure",
+      "chunk_id": "dd401693f605a5859816e3349d9628933eaaf697",
+      "score": 0.5081,
+      "cosine": 0.7259,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Block structure"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Looping constructs > LOOP (infinite)",
+      "chunk_id": "00541383f1c31a4cd8aa38c4e08cbf051b0baf1c",
+      "score": 0.5072,
+      "cosine": 0.7246,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Looping constructs > LOOP (infinite)"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Looping constructs > WHILE loop",
+      "chunk_id": "9c327d8f0d95478d566d2469579f27fbb810b583",
+      "score": 0.5011,
+      "cosine": 0.7158,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Looping constructs > WHILE loop"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Looping constructs > REPEAT loop",
+      "chunk_id": "7a2445d3f8b3cb68a49f3ab1c9d3da019694e985",
+      "score": 0.5007,
+      "cosine": 0.7152,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Looping constructs > REPEAT loop"
+    },
+    {
+      "doc_id": "scripting/Snowflake Scripting Reference.md",
+      "page_title": "Snowflake Scripting Reference",
+      "heading_path": "Variable assignment",
+      "chunk_id": "559bb0fd4c1d20a62aa0ad50af5f8c1a1eccc28f",
+      "score": 0.4978,
+      "cosine": 0.7112,
+      "keyword_overlap": 0.0,
+      "citation": "Snowflake Scripting Reference > Variable assignment"
+    }
+  ],
+  "retrieval_weak": false,
+  "stats": {
+    "candidates": 90,
+    "after_dedupe": 8,
+    "threshold": 0.25
+  }
+}

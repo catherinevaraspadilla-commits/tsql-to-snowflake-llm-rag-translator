@@ -1,0 +1,19 @@
+{
+  "input": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/scripts_input/vEmployeeDepartment.sql",
+  "output": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vEmployeeDepartment_snowflake.sql",
+  "not_translated": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vEmployeeDepartment/not_translated.sql",
+  "parts_total": 3,
+  "translate_parts": 1,
+  "dont_translate_parts": 2,
+  "ok_parts": 1,
+  "fallback_parts": 0,
+  "stage_paths": {
+    "splitter": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/splitter/vEmployeeDepartment",
+    "detector": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/detector/vEmployeeDepartment",
+    "retrieve": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/retrieve/vEmployeeDepartment",
+    "translator_pass1": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/translator_pass1/vEmployeeDepartment",
+    "validator": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/validator/vEmployeeDepartment",
+    "translator_pass2": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/translator_pass2/vEmployeeDepartment"
+  },
+  "splitter_path": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/splitter/vEmployeeDepartment"
+}

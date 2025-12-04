@@ -1,0 +1,19 @@
+{
+  "input": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/scripts_input/uspSearchCandidateResumes.sql",
+  "output": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspSearchCandidateResumes_snowflake.sql",
+  "not_translated": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspSearchCandidateResumes/not_translated.sql",
+  "parts_total": 2,
+  "translate_parts": 1,
+  "dont_translate_parts": 1,
+  "ok_parts": 1,
+  "fallback_parts": 0,
+  "stage_paths": {
+    "splitter": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/splitter/uspSearchCandidateResumes",
+    "detector": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/detector/uspSearchCandidateResumes",
+    "retrieve": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/retrieve/uspSearchCandidateResumes",
+    "translator_pass1": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/translator_pass1/uspSearchCandidateResumes",
+    "validator": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/validator/uspSearchCandidateResumes",
+    "translator_pass2": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/translator_pass2/uspSearchCandidateResumes"
+  },
+  "splitter_path": "C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/splitter/uspSearchCandidateResumes"
+}

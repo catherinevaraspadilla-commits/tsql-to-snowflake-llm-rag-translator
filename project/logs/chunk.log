@@ -1,0 +1,40 @@
+[2025-10-22 12:08:42] DEBUG: Logger initialized, writing to: C:\Users\CatherineVaras\Downloads\snowflake\logs\chunk.log
+[2025-10-22 12:08:42] INFO: CLI invoked. corpus_root=C:/Users/CatherineVaras/Downloads/snowflake/corpus
+[2025-10-22 12:08:42] DEBUG: Loaded spec from C:/Users/CatherineVaras/Downloads/snowflake/corpus/chunking_spec.json
+[2025-10-22 12:08:42] DEBUG: No existing manifest; starting fresh.
+[2025-10-22 12:08:42] INFO: Starting Phase 3 chunk build for corpus: C:/Users/CatherineVaras/Downloads/snowflake/corpus
+[2025-10-22 12:08:42] DEBUG: Spec loaded: {'target_tokens': 600, 'overlap_tokens': 80, 'max_returned_chunks': 8, 'weak_similarity_threshold': 0.25, 'split_strategy_order': ['##', '###', 'paragraph'], 'respect_code_blocks': True, 'respect_tables': True, 'attach_title_to_first_chunk_only': True, 'dedupe_key': 'page_title:first_heading', 'rerank_weights': {'cosine': 0.7, 'keyword_overlap': 0.3}, 'chunk_id_hash': "sha1(doc_id || '::' || heading_path || '::' || chunk_index)"}
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/AGGREGATE.md
+[2025-10-22 12:08:42] INFO: Chunked commands/AGGREGATE.md → 18 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/GROUP.md
+[2025-10-22 12:08:42] INFO: Chunked commands/GROUP.md → 11 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/JOIN.md
+[2025-10-22 12:08:42] INFO: Chunked commands/JOIN.md → 6 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/OPERATORS.md
+[2025-10-22 12:08:42] INFO: Chunked commands/OPERATORS.md → 11 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/ORDER.md
+[2025-10-22 12:08:42] INFO: Chunked commands/ORDER.md → 7 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/QUALIFY.md
+[2025-10-22 12:08:42] INFO: Chunked commands/QUALIFY.md → 6 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/SELECT.md
+[2025-10-22 12:08:42] INFO: Chunked commands/SELECT.md → 4 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/commands/SENTENCES.md
+[2025-10-22 12:08:42] INFO: Chunked commands/SENTENCES.md → 8 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/datatypes/Data Type Conversion.md
+[2025-10-22 12:08:42] INFO: Chunked datatypes/Data Type Conversion.md → 0 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/datatypes/Date and Time Data Types.md
+[2025-10-22 12:08:42] INFO: Chunked datatypes/Date and Time Data Types.md → 0 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/datatypes/Logical Data Types.md
+[2025-10-22 12:08:42] INFO: Chunked datatypes/Logical Data Types.md → 0 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/datatypes/Numeric Data Types.md
+[2025-10-22 12:08:42] INFO: Chunked datatypes/Numeric Data Types.md → 0 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/datatypes/Semi-Structured Data Types.md
+[2025-10-22 12:08:42] INFO: Chunked datatypes/Semi-Structured Data Types.md → 0 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/datatypes/String and Binary Formats.md
+[2025-10-22 12:08:42] INFO: Chunked datatypes/String and Binary Formats.md → 0 chunks
+[2025-10-22 12:08:42] DEBUG: Discovered markdown: C:/Users/CatherineVaras/Downloads/snowflake/corpus/scripting/Snowflake Scripting Reference.md
+[2025-10-22 12:08:42] INFO: Chunked scripting/Snowflake Scripting Reference.md → 19 chunks
+[2025-10-22 12:08:42] DEBUG: Saved manifest to C:/Users/CatherineVaras/Downloads/snowflake/corpus/.rag/chunk_manifest.json
+[2025-10-22 12:08:42] INFO: Manifest updated at C:/Users/CatherineVaras/Downloads/snowflake/corpus/.rag/chunk_manifest.json
+[2025-10-22 12:08:42] INFO: Completed Phase 3 chunk build: processed=15, skipped=0, total_chunks=90
+[2025-10-22 12:08:42] DEBUG: Summary: {'processed_files': 15, 'skipped_files': 0, 'total_chunks': 90, 'output_dir': 'C:/Users/CatherineVaras/Downloads/snowflake/corpus/chunks'}

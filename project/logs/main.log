@@ -1,0 +1,92 @@
+[2025-10-22 14:59:43] DEBUG: main logger initialized
+[2025-10-22 14:59:43] INFO: Discovered 1 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-22 14:59:43] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-22 15:00:01] INFO: Wrote final: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql
+[2025-10-22 17:20:59] DEBUG: main logger initialized
+[2025-10-22 17:20:59] INFO: Discovered 1 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-22 17:20:59] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-22 17:21:06] INFO: Wrote final: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql and not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-22 17:21:24] DEBUG: main logger initialized
+[2025-10-22 17:21:24] INFO: Discovered 1 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-22 17:21:24] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-22 17:21:30] INFO: Wrote final: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql and not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-22 17:33:35] DEBUG: main logger initialized
+[2025-10-22 17:33:35] INFO: Discovered 1 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-22 17:33:35] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-22 17:33:42] ERROR: Fatal error in orchestrator: assemble_file() got an unexpected keyword argument 'preamble'
+[2025-10-22 17:33:56] DEBUG: main logger initialized
+[2025-10-22 17:33:56] INFO: Discovered 1 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-22 17:33:56] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-22 17:34:03] ERROR: Fatal error in orchestrator: assemble_file() got an unexpected keyword argument 'preamble'
+[2025-10-22 17:34:19] DEBUG: main logger initialized
+[2025-10-22 17:34:19] INFO: Discovered 1 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-22 17:34:19] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-22 17:34:25] INFO: Wrote final: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql and not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-22 17:43:17] DEBUG: main logger initialized
+[2025-10-22 17:43:17] INFO: Discovered 1 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-22 17:43:17] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-22 17:43:22] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-23 09:56:13] DEBUG: main logger initialized
+[2025-10-23 09:56:13] INFO: Discovered 2 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-23 09:56:13] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-23 09:56:20] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-23 09:56:20] INFO: Processing: vEmployeeDepartment.sql
+[2025-10-23 09:56:22] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/not_translated.sql
+[2025-10-23 10:35:27] DEBUG: main logger initialized
+[2025-10-23 10:35:27] INFO: Discovered 2 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-23 10:35:27] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-23 10:35:37] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-23 10:35:37] INFO: Processing: vEmployeeDepartment.sql
+[2025-10-23 10:35:40] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/not_translated.sql
+[2025-10-23 11:07:07] INFO: Discovered 3 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-23 11:07:07] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-23 11:07:15] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-23 11:07:15] INFO: Processing: vEmployeeDepartment.sql
+[2025-10-23 11:07:21] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/not_translated.sql
+[2025-10-23 11:07:21] INFO: Processing: vStateProvinceCountryRegion.sql
+[2025-10-23 11:07:21] INFO: Discovered 3 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-23 11:07:21] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-23 11:07:29] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/not_translated.sql
+[2025-10-23 11:07:33] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-23 11:07:33] INFO: Processing: vEmployeeDepartment.sql
+[2025-10-23 11:07:41] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/not_translated.sql
+[2025-10-23 11:07:41] INFO: Processing: vStateProvinceCountryRegion.sql
+[2025-10-23 11:07:47] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/not_translated.sql
+[2025-10-27 14:54:34] DEBUG: main logger initialized
+[2025-10-27 14:54:34] INFO: Discovered 3 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-10-27 14:54:34] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-10-27 14:54:46] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-10-27 14:54:46] INFO: Processing: vEmployeeDepartment.sql
+[2025-10-27 14:54:48] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/not_translated.sql
+[2025-10-27 14:54:48] INFO: Processing: vStateProvinceCountryRegion.sql
+[2025-10-27 14:54:51] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/not_translated.sql
+[2025-11-30 18:08:37] DEBUG: main logger initialized
+[2025-11-30 18:08:37] INFO: Discovered 3 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-11-30 18:08:37] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-11-30 18:08:41] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-11-30 18:08:41] INFO: Processing: vEmployeeDepartment.sql
+[2025-11-30 18:08:42] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/not_translated.sql
+[2025-11-30 18:08:42] INFO: Processing: vStateProvinceCountryRegion.sql
+[2025-11-30 18:08:43] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/not_translated.sql
+[2025-11-30 20:10:19] DEBUG: main logger initialized
+[2025-11-30 20:10:19] INFO: Discovered 4 input file(s) in C:/Users/CatherineVaras/Downloads/snowflake/scripts_input
+[2025-11-30 20:10:19] INFO: Processing: uspUpdateEmployeeHireInfo.sql
+[2025-11-30 20:10:29] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeeHireInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeeHireInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeeHireInfo/not_translated.sql
+[2025-11-30 20:10:29] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-11-30 20:10:32] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-11-30 20:10:32] INFO: Processing: vEmployeeDepartment.sql
+[2025-11-30 20:10:34] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vEmployeeDepartment/not_translated.sql
+[2025-11-30 20:10:34] INFO: Processing: vStateProvinceCountryRegion.sql
+[2025-11-30 20:10:36] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/snowflake/output/final/vStateProvinceCountryRegion/not_translated.sql
+[2025-12-05 07:16:04] DEBUG: main logger initialized
+[2025-12-05 07:16:04] INFO: Discovered 5 input file(s) in C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/scripts_input
+[2025-12-05 07:16:04] INFO: Processing: uspSearchCandidateResumes.sql
+[2025-12-05 07:16:18] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspSearchCandidateResumes_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspSearchCandidateResumes/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspSearchCandidateResumes/not_translated.sql
+[2025-12-05 07:16:18] INFO: Processing: uspUpdateEmployeeHireInfo.sql
+[2025-12-05 07:16:28] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspUpdateEmployeeHireInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspUpdateEmployeeHireInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspUpdateEmployeeHireInfo/not_translated.sql
+[2025-12-05 07:16:28] INFO: Processing: uspUpdateEmployeePersonalInfo.sql
+[2025-12-05 07:16:33] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspUpdateEmployeePersonalInfo_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspUpdateEmployeePersonalInfo/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/uspUpdateEmployeePersonalInfo/not_translated.sql
+[2025-12-05 07:16:33] INFO: Processing: vEmployeeDepartment.sql
+[2025-12-05 07:16:35] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vEmployeeDepartment_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vEmployeeDepartment/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vEmployeeDepartment/not_translated.sql
+[2025-12-05 07:16:35] INFO: Processing: vStateProvinceCountryRegion.sql
+[2025-12-05 07:16:37] INFO: Wrote final(clean): C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vStateProvinceCountryRegion_snowflake.sql  |  documented: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vStateProvinceCountryRegion/explain_summary.sql  |  not-translated: C:/Users/CatherineVaras/Downloads/tsql-to-snowflake-llm-rag-translator/project/output/final/vStateProvinceCountryRegion/not_translated.sql

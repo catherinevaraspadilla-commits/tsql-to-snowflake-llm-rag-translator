@@ -1,0 +1,51 @@
+[2025-10-22 14:59:43] DEBUG: detector logger initialized
+[2025-10-22 14:59:43] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-22 14:59:52] INFO: detect_object: type=None name=None hints={top:False, begin:False, $$:False}
+[2025-10-22 14:59:53] INFO: detect_object: type=None name=None hints={top:False, begin:False, $$:False}
+[2025-10-22 14:59:55] INFO: detect_object: type=None name=None hints={top:False, begin:False, $$:False}
+[2025-10-22 14:59:57] INFO: detect_object: type=None name=None hints={top:False, begin:False, $$:False}
+[2025-10-22 14:59:58] INFO: detect_object: type=None name=None hints={top:False, begin:False, $$:False}
+[2025-10-22 15:00:00] INFO: detect_object: type=None name=None hints={top:False, begin:False, $$:False}
+[2025-10-22 17:20:59] DEBUG: detector logger initialized
+[2025-10-22 17:20:59] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-22 17:21:24] DEBUG: detector logger initialized
+[2025-10-22 17:21:24] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-22 17:33:36] DEBUG: detector logger initialized
+[2025-10-22 17:33:36] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-22 17:33:56] DEBUG: detector logger initialized
+[2025-10-22 17:33:56] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-22 17:34:19] DEBUG: detector logger initialized
+[2025-10-22 17:34:19] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-22 17:43:17] DEBUG: detector logger initialized
+[2025-10-22 17:43:17] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-23 09:56:13] DEBUG: detector logger initialized
+[2025-10-23 09:56:13] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-23 09:56:20] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-10-23 10:35:27] DEBUG: detector logger initialized
+[2025-10-23 10:35:27] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-23 10:35:37] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-10-23 11:07:07] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-23 11:07:15] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-10-23 11:07:21] INFO: detect_object: type=view name=Person.vStateProvinceCountryRegion hints={top:False, begin:False, $$:False}
+[2025-10-23 11:07:22] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-23 11:07:33] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-10-23 11:07:41] INFO: detect_object: type=view name=Person.vStateProvinceCountryRegion hints={top:False, begin:False, $$:False}
+[2025-10-27 14:54:34] DEBUG: detector logger initialized
+[2025-10-27 14:54:34] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-10-27 14:54:46] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-10-27 14:54:48] INFO: detect_object: type=view name=Person.vStateProvinceCountryRegion hints={top:False, begin:False, $$:False}
+[2025-11-30 18:08:37] DEBUG: detector logger initialized
+[2025-11-30 18:08:37] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-11-30 18:08:41] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-11-30 18:08:42] INFO: detect_object: type=view name=Person.vStateProvinceCountryRegion hints={top:False, begin:False, $$:False}
+[2025-11-30 20:10:20] DEBUG: detector logger initialized
+[2025-11-30 20:10:20] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeeHireInfo hints={top:False, begin:True, $$:False}
+[2025-11-30 20:10:29] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-11-30 20:10:32] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-11-30 20:10:34] INFO: detect_object: type=view name=Person.vStateProvinceCountryRegion hints={top:False, begin:False, $$:False}
+[2025-12-05 07:16:04] DEBUG: detector logger initialized
+[2025-12-05 07:16:04] INFO: detect_object: type=procedure name=dbo.uspSearchCandidateResumes hints={top:False, begin:True, $$:False}
+[2025-12-05 07:16:18] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeeHireInfo hints={top:False, begin:True, $$:False}
+[2025-12-05 07:16:28] INFO: detect_object: type=procedure name=HumanResources.uspUpdateEmployeePersonalInfo hints={top:False, begin:True, $$:False}
+[2025-12-05 07:16:33] INFO: detect_object: type=view name=HumanResources.vEmployeeDepartment hints={top:False, begin:False, $$:False}
+[2025-12-05 07:16:35] INFO: detect_object: type=view name=Person.vStateProvinceCountryRegion hints={top:False, begin:False, $$:False}

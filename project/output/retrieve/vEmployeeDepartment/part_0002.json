@@ -1,0 +1,90 @@
+{
+  "chunks": [
+    {
+      "doc_id": "commands/GROUP.md",
+      "page_title": "GROUP BY",
+      "heading_path": "Usage notes",
+      "chunk_id": "5420e65acc10b21fd848066d5a136665aa54375d",
+      "score": 0.5283,
+      "cosine": 0.7548,
+      "keyword_overlap": 0.0,
+      "citation": "GROUP BY > Usage notes"
+    },
+    {
+      "doc_id": "commands/AGGREGATE.md",
+      "page_title": "Aggregate Functions",
+      "heading_path": "General Aggregation",
+      "chunk_id": "58a2ea8d0d5068cbe3a9f54622d35c5a42ee29c4",
+      "score": 0.5251,
+      "cosine": 0.7502,
+      "keyword_overlap": 0.0,
+      "citation": "Aggregate Functions > General Aggregation"
+    },
+    {
+      "doc_id": "commands/SELECT.md",
+      "page_title": "SELECT",
+      "heading_path": "Notes",
+      "chunk_id": "0e00019252e448f09fbf17a7fc764669391db9c9",
+      "score": 0.5184,
+      "cosine": 0.728,
+      "keyword_overlap": 0.0294,
+      "citation": "SELECT > Notes"
+    },
+    {
+      "doc_id": "commands/OPERATORS.md",
+      "page_title": "Query Operators",
+      "heading_path": "Notes",
+      "chunk_id": "b08899716c93071273eca3b0bdc51a3ba2307431",
+      "score": 0.5111,
+      "cosine": 0.7302,
+      "keyword_overlap": 0.0,
+      "citation": "Query Operators > Notes"
+    },
+    {
+      "doc_id": "commands/AGGREGATE.md",
+      "page_title": "Aggregate Functions",
+      "heading_path": "Aggregation Utilities",
+      "chunk_id": "7de97de6d2bd495a4895acd77604d344917f8e20",
+      "score": 0.5103,
+      "cosine": 0.729,
+      "keyword_overlap": 0.0,
+      "citation": "Aggregate Functions > Aggregation Utilities"
+    },
+    {
+      "doc_id": "commands/AGGREGATE.md",
+      "page_title": "Aggregate Functions",
+      "heading_path": "Translator guidance (LLM-facing)",
+      "chunk_id": "c7b17e3dbffd61a5c37070bb3f9fa864c30f614e",
+      "score": 0.5048,
+      "cosine": 0.7212,
+      "keyword_overlap": 0.0,
+      "citation": "Aggregate Functions > Translator guidance (LLM-facing)"
+    },
+    {
+      "doc_id": "commands/QUALIFY.md",
+      "page_title": "QUALIFY",
+      "heading_path": "Examples",
+      "chunk_id": "e0e4e3a132a034b82eb772cc2ec3eeaecb9b09a2",
+      "score": 0.4999,
+      "cosine": 0.7142,
+      "keyword_overlap": 0.0,
+      "citation": "QUALIFY > Examples"
+    },
+    {
+      "doc_id": "commands/AGGREGATE.md",
+      "page_title": "Aggregate Functions",
+      "heading_path": "Examples (illustrative)",
+      "chunk_id": "d46fe87b91b45a9b3304dea0185a060de0540ccb",
+      "score": 0.4938,
+      "cosine": 0.7055,
+      "keyword_overlap": 0.0,
+      "citation": "Aggregate Functions > Examples (illustrative)"
+    }
+  ],
+  "retrieval_weak": false,
+  "stats": {
+    "candidates": 90,
+    "after_dedupe": 8,
+    "threshold": 0.25
+  }
+}

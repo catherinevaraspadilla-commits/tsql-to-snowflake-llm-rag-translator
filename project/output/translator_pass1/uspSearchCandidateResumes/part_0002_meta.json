@@ -1,0 +1,18 @@
+{
+  "citations": [
+    "Snowflake Scripting Reference > Looping constructs > FOR loop (cursor-based)",
+    "Snowflake Scripting Reference > Returning values",
+    "Snowflake Scripting Reference > Branching",
+    "Snowflake Scripting Reference > Block structure",
+    "Snowflake Scripting Reference > Looping constructs > LOOP (infinite)",
+    "Snowflake Scripting Reference > Looping constructs > WHILE loop",
+    "Snowflake Scripting Reference > Looping constructs > REPEAT loop",
+    "Snowflake Scripting Reference > Variable assignment"
+  ],
+  "todos": [],
+  "notes": [
+    "conservative",
+    "phase4-pass1"
+  ],
+  "retrieval_weak": false
+}

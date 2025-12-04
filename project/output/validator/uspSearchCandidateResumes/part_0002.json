@@ -1,0 +1,11 @@
+{
+  "object_type": "procedure",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "MISSING_DOLLARS",
+      "msg": "Procedure body not found between AS $$ $$; ensure correct body delimiter for LANGUAGE SQL/JAVASCRIPT."
+    }
+  ],
+  "suggestions": []
+}

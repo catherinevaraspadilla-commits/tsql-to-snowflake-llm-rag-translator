@@ -1,0 +1,7 @@
+{
+  "root_folder_path": "C:/Users/CatherineVaras/Downloads/snowflake/scripts",
+  "api_key": "api...",
+  "azure_endpoint": "https://finops-orchestrator.openai.azure.com/",
+  "embedding_deployment" : "text-embedding-3-small",
+  "chat_deployment": "gpt-4o" 
+}

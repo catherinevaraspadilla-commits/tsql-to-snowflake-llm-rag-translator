@@ -1,0 +1,6 @@
+{
+  "applied_fixes": [],
+  "remaining_todos": [
+    "-- TODO: Replace 'dbo.uspLogError' with the appropriate Snowflake error logging procedure if available"
+  ]
+}
