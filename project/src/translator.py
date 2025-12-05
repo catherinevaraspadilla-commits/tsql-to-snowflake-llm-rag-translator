@@ -127,6 +127,274 @@ def _llm_chat(messages: List[Dict[str, str]], model: Optional[str]) -> str:
         logger.error(f"LLM call failed: {e}")
         return ""
 
+def _normalize_object_type(object_type: Optional[str]) -> str:
+    if not object_type:
+        return "unknown"
+    t = object_type.strip().lower()
+    if t in {"view", "procedure"}:
+        return t
+    # por si viene "proc" del detector
+    if t in {"proc", "procedure_sql"}:
+        return "procedure"
+    return "unknown"
+
+
+def _build_pass1_system_prompt(object_type: Optional[str]) -> str:
+    """Devuelve un system prompt especializado por tipo de objeto."""
+    otype = _normalize_object_type(object_type)
+
+    header = (
+        "You translate to Snowflake.\n"
+        "OUTPUT CONTRACT (must follow exactly):\n"
+        "- Return a SINGLE executable Snowflake script. No explanations. No markdown fences.\n"
+    )
+
+    view_rules = (
+        "VIEW RULES:\n"
+        "- Output MUST start with: CREATE OR REPLACE VIEW <schema>.<name> [COPY GRANTS]\n"
+        "- Then the keyword AS on its own line, then a SELECT body, then a single semicolon.\n"
+        "- Never return a bare SELECT.\n"
+        "- Prefer unquoted identifiers unless quoted/mixed-case exists in the source; preserve explicit schema qualifiers in FROM/JOIN.\n"
+        "- Keep semantics exactly (columns, filters, windowing). Use QUALIFY only when strictly required (e.g., to deduplicate ties with ROW_NUMBER).\n"
+        "\n"
+    )
+
+        
+    procedure_rules = """
+    PROCEDURE RULES (Snowflake SQL language — strict, safe, non-inventive):
+
+    GENERAL STRUCTURE
+    - Output MUST start with:
+        CREATE OR REPLACE PROCEDURE <schema>.<name>(<args>)
+    - PARAMETERS:
+        • Remove all @ prefixes.
+        • Convert SQL Server types to Snowflake types:
+            NVARCHAR, VARCHAR, TEXT → STRING
+            INT → INT
+            BIGINT → NUMBER(38,0)
+            SMALLINT, TINYINT → NUMBER(3,0)
+            MONEY, SMALLMONEY → NUMBER(19,4)
+            BIT or flag types → BOOLEAN
+            DATETIME/DATETIME2 → TIMESTAMP
+        • If parameter name collides with a column, prefix with p_.
+    - IDENTIFIERS:
+        • Remove all [brackets].
+        • Always output schema.object, never [schema].[object].
+    - PARAMETER SHADOWING (CRITICAL RULE):
+    • If a parameter name is identical to any column referenced in the procedure (e.g., BusinessEntityID, Rate, HireDate), the parameter MUST be renamed automatically to p_<name>.
+    • After renaming, ALL references to that parameter inside the procedure body MUST use the prefixed name (p_<name>).
+    • NEVER allow expressions like: column = column. This is always invalid. Convert to: column = p_column.
+    • When in doubt, always prefix parameters with p_ to avoid accidental shadowing.
+
+    HEADER ORDER (REQUIRED)
+    After the signature, output these lines, each on its own line and in this order:
+        RETURNS <type>
+        LANGUAGE SQL
+        EXECUTE AS CALLER
+        AS
+
+    BODY RULES (MUST FOLLOW EXACTLY)
+    - Wrap the body with: $$ ... $$;
+    - Inside $$ ... $$ there MUST be ONLY:
+        1) Optional DECLARE section.
+        2) A single BEGIN ... EXCEPTION ... END block.
+    - DECLARE rules:
+        • DECLARE section MUST be omitted entirely if there are no variables.
+        • NEVER output DECLARE with no variables inside (invalid Snowflake syntax).
+    - BEGIN block rules:
+        • Only one BEGIN and one END.
+        • No nested BEGIN/END blocks.
+        • Must contain at least one RETURN.
+    - EXCEPTION block rules:
+        • EXCEPTION WHEN OTHER THEN <simple RETURN>;
+        • NO CALL statements unless the original procedure explicitly called an object with that exact name.
+        • NEVER invent log procedures, tables, or functions.
+        • NEVER add TODO comments or placeholder calls inside EXCEPTION.
+        • ONLY allowed action in EXCEPTION is: RETURN '<error message>'::STRING;
+    - Logic rules:
+        • Preserve UPDATE/INSERT/SELECT semantics.
+        • Remove all SQL Server-specific syntax.
+        • Do NOT rewrite or add extra logic not present in the original T-SQL.
+
+    STRICT PROHIBITIONS
+    - NEVER output:
+        • SQL Server CREATE PROCEDURE syntax.
+        • @variables or @assignments.
+        • SET NOCOUNT ON.
+        • TRY/CATCH blocks (convert them).
+        • BEGIN TRY, END TRY, BEGIN CATCH, END CATCH.
+        • BEGIN TRAN, COMMIT, ROLLBACK, @@TRANCOUNT.
+        • DECLARE after BEGIN.
+        • DECLARE with no variables.
+        • Any invented CALL, procedure, function or table.
+        • Any invented logging mechanism.
+        • Fallback comments like "/* original T-SQL */" or "TODO".
+
+    EXCEPTION TRANSLATION RULE
+    - Convert T-SQL TRY/CATCH to:
+        EXCEPTION WHEN OTHER THEN RETURN 'Error occurred'::STRING;
+    - Do not include any additional logic unless the original code had it AND the referenced object exists in the input.
+
+    RETURN RULE
+    - If the original procedure did not return a scalar value:
+        RETURN 'OK'::STRING;
+
+    VALIDITY REQUIREMENT
+    - The generated output MUST be valid Snowflake SQL syntax.
+    - If uncertain, simplify — do NOT invent objects or logic.
+    - Safety over completeness: omit features rather than generate invalid or imaginary ones.
+
+
+    """
+
+
+    general_rules = (
+        "GENERAL RULES:\n"
+        "1) Output Snowflake SQL only.\n"
+        "2) Prefer ANSI joins and Snowflake-native functions; if uncertain, add a line starting with '-- TODO:' stating the uncertainty.\n"
+        "3) Do not invent objects/columns. Keep ordering/semantics.\n"
+        "4) If CREATE name/sig cannot be inferred, emit a valid placeholder (e.g., <schema>.<name>) and add a '-- TODO:' line, but still emit full DDL (no bare SELECT).\n"
+        "5) Terminate statements properly (view ends with ';', procedure ends with '$$;').\n"
+    )
+
+    if otype == "view":
+        # Sólo reglas de VIEW + generales
+        return header + view_rules + general_rules
+    elif otype == "procedure":
+        # Sólo reglas de PROCEDURE + generales
+        return header + procedure_rules + general_rules
+    else:
+        # Desconocido: incluye ambos bloques
+        return header + view_rules + procedure_rules + general_rules
+
+
+def _build_pass2_system_prompt(object_type: Optional[str]) -> str:
+    """Devuelve un system prompt especializado para la fase de reparación."""
+    otype = _normalize_object_type(object_type)
+
+    header = (
+        "You are a careful Snowflake SQL fixer. Normalize/repair the input into ONE executable Snowflake script if needed if not don't and just return the same input.\n"
+        "No explanations. No markdown fences.\n\n"
+    )
+
+    generic_requirements = (
+        "SAFE FIXES (applies to all objects):\n"
+        "- Apply validator suggestions when unambiguous (e.g., TOP→LIMIT, use QUALIFY for tie-breaking if needed, bracket→identifier, function equivalences).\n"
+        "- Preserve semantics and explicit schema qualification; do not invent columns/tables.\n"
+        "- If anything remains uncertain, keep original and add '-- TODO:' explaining the ambiguity.\n"
+        "- Ensure final output compiles in Snowflake as-is.\n"
+    )
+
+    view_requirements = (
+        "HARD REQUIREMENTS FOR VIEWS:\n"
+        "- Script MUST begin with 'CREATE OR REPLACE VIEW ' followed by <schema>.<name> [COPY GRANTS].\n"
+        "- Then 'AS' on a new line, then the SELECT body, then a single semicolon at the end.\n"
+        "- If the input is a bare SELECT, wrap it accordingly.\n"
+        "\n"
+    )
+
+        
+    procedure_rules = """
+    PROCEDURE RULES (Snowflake SQL language — strict, safe, non-inventive):
+
+    GENERAL STRUCTURE
+    - Output MUST start with:
+        CREATE OR REPLACE PROCEDURE <schema>.<name>(<args>)
+    - PARAMETERS:
+        • Remove all @ prefixes.
+        • Convert SQL Server types to Snowflake types:
+            NVARCHAR, VARCHAR, TEXT → STRING
+            INT → INT
+            BIGINT → NUMBER(38,0)
+            SMALLINT, TINYINT → NUMBER(3,0)
+            MONEY, SMALLMONEY → NUMBER(19,4)
+            BIT or flag types → BOOLEAN
+            DATETIME/DATETIME2 → TIMESTAMP
+        • If parameter name collides with a column, prefix with p_.
+    - IDENTIFIERS:
+        • Remove all [brackets].
+        • Always output schema.object, never [schema].[object].
+    - PARAMETER SHADOWING (CRITICAL RULE):
+    • If a parameter name is identical to any column referenced in the procedure (e.g., BusinessEntityID, Rate, HireDate), the parameter MUST be renamed automatically to p_<name>.
+    • After renaming, ALL references to that parameter inside the procedure body MUST use the prefixed name (p_<name>).
+    • NEVER allow expressions like: column = column. This is always invalid. Convert to: column = p_column.
+    • When in doubt, always prefix parameters with p_ to avoid accidental shadowing.
+
+    HEADER ORDER (REQUIRED)
+    After the signature, output these lines, each on its own line and in this order:
+        RETURNS <type>
+        LANGUAGE SQL
+        EXECUTE AS CALLER
+        AS
+
+    BODY RULES (MUST FOLLOW EXACTLY)
+    - Wrap the body with: $$ ... $$;
+    - Inside $$ ... $$ there MUST be ONLY:
+        1) Optional DECLARE section.
+        2) A single BEGIN ... EXCEPTION ... END block.
+    - DECLARE rules:
+        • DECLARE section MUST be omitted entirely if there are no variables.
+        • NEVER output DECLARE with no variables inside (invalid Snowflake syntax).
+    - BEGIN block rules:
+        • Only one BEGIN and one END.
+        • No nested BEGIN/END blocks.
+        • Must contain at least one RETURN.
+    - EXCEPTION block rules:
+        • EXCEPTION WHEN OTHER THEN <simple RETURN>;
+        • NO CALL statements unless the original procedure explicitly called an object with that exact name.
+        • NEVER invent log procedures, tables, or functions.
+        • NEVER add TODO comments or placeholder calls inside EXCEPTION.
+        • ONLY allowed action in EXCEPTION is: RETURN '<error message>'::STRING;
+    - Logic rules:
+        • Preserve UPDATE/INSERT/SELECT semantics.
+        • Remove all SQL Server-specific syntax.
+        • Do NOT rewrite or add extra logic not present in the original T-SQL.
+
+    STRICT PROHIBITIONS
+    - NEVER output:
+        • SQL Server CREATE PROCEDURE syntax.
+        • @variables or @assignments.
+        • SET NOCOUNT ON.
+        • TRY/CATCH blocks (convert them).
+        • BEGIN TRY, END TRY, BEGIN CATCH, END CATCH.
+        • BEGIN TRAN, COMMIT, ROLLBACK, @@TRANCOUNT.
+        • DECLARE after BEGIN.
+        • DECLARE with no variables.
+        • Any invented CALL, procedure, function or table.
+        • Any invented logging mechanism.
+        • Fallback comments like "/* original T-SQL */" or "TODO".
+
+    EXCEPTION TRANSLATION RULE
+    - Convert T-SQL TRY/CATCH to:
+        EXCEPTION WHEN OTHER THEN RETURN 'Error occurred'::STRING;
+    - Do not include any additional logic unless the original code had it AND the referenced object exists in the input.
+
+    RETURN RULE
+    - If the original procedure did not return a scalar value:
+        RETURN 'OK'::STRING;
+
+    VALIDITY REQUIREMENT
+    - The generated output MUST be valid Snowflake SQL syntax.
+    - If uncertain, simplify — do NOT invent objects or logic.
+    - Safety over completeness: omit features rather than generate invalid or imaginary ones.
+
+
+    """
+
+    if otype == "view":
+        return header + view_requirements + generic_requirements
+    elif otype == "procedure":
+        return header + procedure_rules + generic_requirements
+    else:
+        hybrid = (
+            "Object type is uncertain (could be VIEW or PROCEDURE).\n"
+            "If the input already clearly looks like a VIEW, normalize it as a VIEW.\n"
+            "If it looks like a PROCEDURE, normalize it as a PROCEDURE.\n"
+            "If still ambiguous, prefer VIEW and add '-- TODO:' clarifying the assumption.\n\n"
+        )
+        return header + hybrid + view_requirements + procedure_requirements + generic_requirements
+
+
 # -------- Public API --------
 def pass1_translate(input_sql: str,
                     retrieved: Dict[str, Any],
@@ -139,33 +407,7 @@ def pass1_translate(input_sql: str,
     citations = _extract_citations(retrieved)
     retrieval_weak = bool(retrieved.get("retrieval_weak", False))
 
-    system_prompt = (
-        "You translate T-SQL (and similar SQL) to Snowflake.\n"
-        "OUTPUT CONTRACT (must follow exactly):\n"
-        "- Return a SINGLE executable Snowflake script. No explanations. No markdown fences.\n"
-        "- Detect the object type (VIEW vs PROCEDURE) from either the provided object_type or the input code.\n"
-        "\n"
-        "VIEW RULES:\n"
-        "- Output MUST start with: CREATE OR REPLACE VIEW <schema>.<name> [COPY GRANTS]\n"
-        "- Then the keyword AS on its own line, then a SELECT body, then a single semicolon.\n"
-        "- Never return a bare SELECT.\n"
-        "- Prefer unquoted identifiers unless quoted/mixed-case exists in the source; preserve explicit schema qualifiers in FROM/JOIN.\n"
-        "- Keep semantics exactly (columns, filters, windowing). Use QUALIFY only when strictly required (e.g., to deduplicate ties with ROW_NUMBER).\n"
-        "\n"
-        "PROCEDURE RULES (Snowflake SQL language):\n"
-        "- Output MUST start with: CREATE OR REPLACE PROCEDURE <schema>.<name>(<args>)\n"
-        "- Include: RETURNS <type>  LANGUAGE SQL  EXECUTE AS CALLER\n"
-        "- Body wrapped in $$ ... $$ with a BEGIN ... END block and a RETURN statement. End with $$; (note the semicolon after $$).\n"
-        "- If the original procedure returns nothing, return 'OK'::STRING.\n"
-        "- Map variables/flow from T-SQL to Snowflake (DECLARE, SET, IF, WHILE, TRY/CATCH→EXCEPTION handler if needed). Prefer TEMP/TEMPORARY tables for #temp.\n"
-        "\n"
-        "GENERAL RULES:\n"
-        "1) Output Snowflake SQL only.\n"
-        "2) Prefer ANSI joins and Snowflake-native functions; if uncertain, add a line starting with '-- TODO:' stating the uncertainty.\n"
-        "3) Do not invent objects/columns. Keep ordering/semantics.\n"
-        "4) If CREATE name/sig cannot be inferred, emit a valid placeholder (e.g., <schema>.<name>) and add a '-- TODO:' line, but still emit full DDL (no bare SELECT).\n"
-        "5) Terminate statements properly (view ends with ';', procedure ends with '$$;').\n"
-    )
+    system_prompt = _build_pass1_system_prompt(object_type)
 
     # Provide minimal context: list of relevant sections (titles only)
     ctx_sections = "\n".join(f"- {c}" for c in citations) if citations else "- (no relevant sections)"
@@ -226,27 +468,7 @@ def pass2_repair(draft_sql: str,
 
     require_llm = bool(sig_errors or sig_warnings or sig_suggestions)  # only call if there's something to fix
     if require_llm:
-        system_prompt = (
-            "You are a careful Snowflake SQL fixer. Normalize/repair the input into ONE executable Snowflake script.\n"
-            "No explanations. No markdown fences.\n"
-            "\n"
-            "HARD REQUIREMENTS:\n"
-            "A) If the object is a VIEW:\n"
-            "   - Script MUST begin with 'CREATE OR REPLACE VIEW ' followed by <schema>.<name> [COPY GRANTS]\n"
-            "   - Then 'AS' on a new line, then the SELECT body, then a single semicolon at the end.\n"
-            "   - If the input is a bare SELECT, wrap it accordingly.\n"
-            "\n"
-            "B) If the object is a PROCEDURE:\n"
-            "   - Script MUST begin with 'CREATE OR REPLACE PROCEDURE ' followed by <schema>.<name>(<args>)\n"
-            "   - MUST include: RETURNS <type>, LANGUAGE SQL, EXECUTE AS CALLER\n"
-            "   - Body wrapped in $$ ... $$, with BEGIN ... END, and at least one RETURN. End with $$; (semicolon after $$).\n"
-            "\n"
-            "SAFE FIXES:\n"
-            "- Apply validator suggestions when unambiguous (e.g., TOP→LIMIT, use QUALIFY for tie-breaking if needed, bracket→identifier, function equivalences).\n"
-            "- Preserve semantics and explicit schema qualification; do not invent columns/tables.\n"
-            "- If anything remains uncertain, keep original and add '-- TODO:' explaining the ambiguity.\n"
-            "- Ensure final output compiles in Snowflake as-is.\n"
-        )
+        system_prompt = _build_pass2_system_prompt(object_type)
         guide = {
             "object_type": object_type,
             "validator": {
